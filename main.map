@@ -1,0 +1,94 @@
+MPLINK 4.49, Linker
+Linker Map File - Created Tue May 18 20:57:02 2021
+
+                                 Section Info
+                  Section       Type    Address   Location Size(Bytes)
+                ---------  ---------  ---------  ---------  ---------
+                   .org_0       code   0x000000    program   0x000000
+                   .org_1       code   0x000000    program   0x000420
+
+
+
+                              Program Memory Usage 
+                               Start         End      
+                           ---------   ---------      
+                            0x000000    0x00041f      
+            1056 out of 33048 program addresses used, program memory utilization is 3%
+
+
+
+                              Symbols - Sorted by Name
+                     Name    Address   Location    Storage File                     
+                ---------  ---------  ---------  --------- ---------                
+                ADC_LOOP0   0x000034    program     static C:\Users\Shadi\OneDrive\SASES\Projects\2021\210501-OxygenTherapy\Firmware\main.asm
+                ADC_LOOP1   0x000048    program     static C:\Users\Shadi\OneDrive\SASES\Projects\2021\210501-OxygenTherapy\Firmware\main.asm
+                ADC_LOOP3   0x00005c    program     static C:\Users\Shadi\OneDrive\SASES\Projects\2021\210501-OxygenTherapy\Firmware\main.asm
+                 ADC_READ   0x00002a    program     static C:\Users\Shadi\OneDrive\SASES\Projects\2021\210501-OxygenTherapy\Firmware\main.asm
+                       C1   0x0000aa    program     static C:\Users\Shadi\OneDrive\SASES\Projects\2021\210501-OxygenTherapy\Firmware\main.asm
+                       C2   0x0000be    program     static C:\Users\Shadi\OneDrive\SASES\Projects\2021\210501-OxygenTherapy\Firmware\main.asm
+                       C3   0x0000d0    program     static C:\Users\Shadi\OneDrive\SASES\Projects\2021\210501-OxygenTherapy\Firmware\main.asm
+              CHECK_AGAIN   0x000008    program     static C:\Users\Shadi\OneDrive\SASES\Projects\2021\210501-OxygenTherapy\Firmware\main.asm
+                   CLEAR1   0x0000a8    program     static C:\Users\Shadi\OneDrive\SASES\Projects\2021\210501-OxygenTherapy\Firmware\main.asm
+                   CLEAR2   0x0000bc    program     static C:\Users\Shadi\OneDrive\SASES\Projects\2021\210501-OxygenTherapy\Firmware\main.asm
+                   CLEAR3   0x0000ce    program     static C:\Users\Shadi\OneDrive\SASES\Projects\2021\210501-OxygenTherapy\Firmware\main.asm
+              COUNTER_DEC   0x0003ca    program     static C:\Users\Shadi\OneDrive\SASES\Projects\2021\210501-OxygenTherapy\Firmware\main.asm
+                DELAY_5ms   0x0003c6    program     static C:\Users\Shadi\OneDrive\SASES\Projects\2021\210501-OxygenTherapy\Firmware\main.asm
+                   Enable   0x0003d2    program     static C:\Users\Shadi\OneDrive\SASES\Projects\2021\210501-OxygenTherapy\Firmware\main.asm
+                  GET_MOD   0x000004    program     static C:\Users\Shadi\OneDrive\SASES\Projects\2021\210501-OxygenTherapy\Firmware\main.asm
+              LCD_COMMAND   0x000404    program     static C:\Users\Shadi\OneDrive\SASES\Projects\2021\210501-OxygenTherapy\Firmware\main.asm
+            LCD_CONTINUE1   0x0001ac    program     static C:\Users\Shadi\OneDrive\SASES\Projects\2021\210501-OxygenTherapy\Firmware\main.asm
+            LCD_CONTINUE2   0x00027c    program     static C:\Users\Shadi\OneDrive\SASES\Projects\2021\210501-OxygenTherapy\Firmware\main.asm
+                 LCD_DATA   0x000412    program     static C:\Users\Shadi\OneDrive\SASES\Projects\2021\210501-OxygenTherapy\Firmware\main.asm
+                 LCD_INIT   0x0003ea    program     static C:\Users\Shadi\OneDrive\SASES\Projects\2021\210501-OxygenTherapy\Firmware\main.asm
+                     LOOP   0x000092    program     static C:\Users\Shadi\OneDrive\SASES\Projects\2021\210501-OxygenTherapy\Firmware\main.asm
+                     MAIN   0x000068    program     static C:\Users\Shadi\OneDrive\SASES\Projects\2021\210501-OxygenTherapy\Firmware\main.asm
+                     MSG1   0x0000e2    program     static C:\Users\Shadi\OneDrive\SASES\Projects\2021\210501-OxygenTherapy\Firmware\main.asm
+                     MSG2   0x000280    program     static C:\Users\Shadi\OneDrive\SASES\Projects\2021\210501-OxygenTherapy\Firmware\main.asm
+                     MSG3   0x00031a    program     static C:\Users\Shadi\OneDrive\SASES\Projects\2021\210501-OxygenTherapy\Firmware\main.asm
+                      ON1   0x00012e    program     static C:\Users\Shadi\OneDrive\SASES\Projects\2021\210501-OxygenTherapy\Firmware\main.asm
+                      ON2   0x0001fe    program     static C:\Users\Shadi\OneDrive\SASES\Projects\2021\210501-OxygenTherapy\Firmware\main.asm
+               PRINT_BYTE   0x0003e8    program     static C:\Users\Shadi\OneDrive\SASES\Projects\2021\210501-OxygenTherapy\Firmware\main.asm
+                     SET1   0x0000a0    program     static C:\Users\Shadi\OneDrive\SASES\Projects\2021\210501-OxygenTherapy\Firmware\main.asm
+                     SET2   0x0000b4    program     static C:\Users\Shadi\OneDrive\SASES\Projects\2021\210501-OxygenTherapy\Firmware\main.asm
+                     SET3   0x0000c8    program     static C:\Users\Shadi\OneDrive\SASES\Projects\2021\210501-OxygenTherapy\Firmware\main.asm
+               SET_VALUES   0x000024    program     static C:\Users\Shadi\OneDrive\SASES\Projects\2021\210501-OxygenTherapy\Firmware\main.asm
+
+
+
+                              Symbols - Sorted by Address
+                     Name    Address   Location    Storage File                     
+                ---------  ---------  ---------  --------- ---------                
+                  GET_MOD   0x000004    program     static C:\Users\Shadi\OneDrive\SASES\Projects\2021\210501-OxygenTherapy\Firmware\main.asm
+              CHECK_AGAIN   0x000008    program     static C:\Users\Shadi\OneDrive\SASES\Projects\2021\210501-OxygenTherapy\Firmware\main.asm
+               SET_VALUES   0x000024    program     static C:\Users\Shadi\OneDrive\SASES\Projects\2021\210501-OxygenTherapy\Firmware\main.asm
+                 ADC_READ   0x00002a    program     static C:\Users\Shadi\OneDrive\SASES\Projects\2021\210501-OxygenTherapy\Firmware\main.asm
+                ADC_LOOP0   0x000034    program     static C:\Users\Shadi\OneDrive\SASES\Projects\2021\210501-OxygenTherapy\Firmware\main.asm
+                ADC_LOOP1   0x000048    program     static C:\Users\Shadi\OneDrive\SASES\Projects\2021\210501-OxygenTherapy\Firmware\main.asm
+                ADC_LOOP3   0x00005c    program     static C:\Users\Shadi\OneDrive\SASES\Projects\2021\210501-OxygenTherapy\Firmware\main.asm
+                     MAIN   0x000068    program     static C:\Users\Shadi\OneDrive\SASES\Projects\2021\210501-OxygenTherapy\Firmware\main.asm
+                     LOOP   0x000092    program     static C:\Users\Shadi\OneDrive\SASES\Projects\2021\210501-OxygenTherapy\Firmware\main.asm
+                     SET1   0x0000a0    program     static C:\Users\Shadi\OneDrive\SASES\Projects\2021\210501-OxygenTherapy\Firmware\main.asm
+                   CLEAR1   0x0000a8    program     static C:\Users\Shadi\OneDrive\SASES\Projects\2021\210501-OxygenTherapy\Firmware\main.asm
+                       C1   0x0000aa    program     static C:\Users\Shadi\OneDrive\SASES\Projects\2021\210501-OxygenTherapy\Firmware\main.asm
+                     SET2   0x0000b4    program     static C:\Users\Shadi\OneDrive\SASES\Projects\2021\210501-OxygenTherapy\Firmware\main.asm
+                   CLEAR2   0x0000bc    program     static C:\Users\Shadi\OneDrive\SASES\Projects\2021\210501-OxygenTherapy\Firmware\main.asm
+                       C2   0x0000be    program     static C:\Users\Shadi\OneDrive\SASES\Projects\2021\210501-OxygenTherapy\Firmware\main.asm
+                     SET3   0x0000c8    program     static C:\Users\Shadi\OneDrive\SASES\Projects\2021\210501-OxygenTherapy\Firmware\main.asm
+                   CLEAR3   0x0000ce    program     static C:\Users\Shadi\OneDrive\SASES\Projects\2021\210501-OxygenTherapy\Firmware\main.asm
+                       C3   0x0000d0    program     static C:\Users\Shadi\OneDrive\SASES\Projects\2021\210501-OxygenTherapy\Firmware\main.asm
+                     MSG1   0x0000e2    program     static C:\Users\Shadi\OneDrive\SASES\Projects\2021\210501-OxygenTherapy\Firmware\main.asm
+                      ON1   0x00012e    program     static C:\Users\Shadi\OneDrive\SASES\Projects\2021\210501-OxygenTherapy\Firmware\main.asm
+            LCD_CONTINUE1   0x0001ac    program     static C:\Users\Shadi\OneDrive\SASES\Projects\2021\210501-OxygenTherapy\Firmware\main.asm
+                      ON2   0x0001fe    program     static C:\Users\Shadi\OneDrive\SASES\Projects\2021\210501-OxygenTherapy\Firmware\main.asm
+            LCD_CONTINUE2   0x00027c    program     static C:\Users\Shadi\OneDrive\SASES\Projects\2021\210501-OxygenTherapy\Firmware\main.asm
+                     MSG2   0x000280    program     static C:\Users\Shadi\OneDrive\SASES\Projects\2021\210501-OxygenTherapy\Firmware\main.asm
+                     MSG3   0x00031a    program     static C:\Users\Shadi\OneDrive\SASES\Projects\2021\210501-OxygenTherapy\Firmware\main.asm
+                DELAY_5ms   0x0003c6    program     static C:\Users\Shadi\OneDrive\SASES\Projects\2021\210501-OxygenTherapy\Firmware\main.asm
+              COUNTER_DEC   0x0003ca    program     static C:\Users\Shadi\OneDrive\SASES\Projects\2021\210501-OxygenTherapy\Firmware\main.asm
+                   Enable   0x0003d2    program     static C:\Users\Shadi\OneDrive\SASES\Projects\2021\210501-OxygenTherapy\Firmware\main.asm
+               PRINT_BYTE   0x0003e8    program     static C:\Users\Shadi\OneDrive\SASES\Projects\2021\210501-OxygenTherapy\Firmware\main.asm
+                 LCD_INIT   0x0003ea    program     static C:\Users\Shadi\OneDrive\SASES\Projects\2021\210501-OxygenTherapy\Firmware\main.asm
+              LCD_COMMAND   0x000404    program     static C:\Users\Shadi\OneDrive\SASES\Projects\2021\210501-OxygenTherapy\Firmware\main.asm
+                 LCD_DATA   0x000412    program     static C:\Users\Shadi\OneDrive\SASES\Projects\2021\210501-OxygenTherapy\Firmware\main.asm
+
+
